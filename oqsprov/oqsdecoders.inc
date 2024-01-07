@@ -115,6 +115,14 @@ DECODER_w_structure("frodo640aes", der, PrivateKeyInfo, frodo640aes),
     DECODER_w_structure("x25519_kyber512", der, SubjectPublicKeyInfo,
                         x25519_kyber512),
 #    endif
+#    ifdef OQS_ENABLE_KEM_rlce_l1
+    DECODER_w_structure("rlcel1", der, PrivateKeyInfo, rlcel1),
+    DECODER_w_structure("rlcel1", der, SubjectPublicKeyInfo, rlcel1),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_348864
+    DECODER_w_structure("classicmceliece348864", der, PrivateKeyInfo, classicmceliece348864),
+    DECODER_w_structure("classicmceliece348864", der, SubjectPublicKeyInfo, classicmceliece348864),
+#    endif
 #    ifdef OQS_ENABLE_KEM_kyber_768
     DECODER_w_structure("kyber768", der, PrivateKeyInfo, kyber768),
     DECODER_w_structure("kyber768", der, SubjectPublicKeyInfo, kyber768),
