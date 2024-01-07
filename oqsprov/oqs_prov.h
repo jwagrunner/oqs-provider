@@ -1475,6 +1475,9 @@ extern const OSSL_DISPATCH oqs_frodo1344shake_keymgmt_functions[];
 extern const OSSL_DISPATCH oqs_ecp_p521_frodo1344shake_keymgmt_functions[];
 extern const OSSL_DISPATCH oqs_kyber512_keymgmt_functions[];
 
+extern const OSSL_DISPATCH oqs_rlcel1_keymgmt_functions[];
+extern const OSSL_DISPATCH oqs_classicmceliece348864_keymgmt_functions[];
+
 extern const OSSL_DISPATCH oqs_ecp_p256_kyber512_keymgmt_functions[];
 extern const OSSL_DISPATCH oqs_ecx_x25519_kyber512_keymgmt_functions[];
 extern const OSSL_DISPATCH oqs_kyber768_keymgmt_functions[];
