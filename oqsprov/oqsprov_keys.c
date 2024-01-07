@@ -98,6 +98,8 @@ static oqs_nid_name_t nid_names[NID_TABLE_LEN] = {
     {0, "p256_kyber768", OQS_KEM_alg_kyber_768, KEY_TYPE_ECP_HYB_KEM, 192},
     {0, "kyber1024", OQS_KEM_alg_kyber_1024, KEY_TYPE_KEM, 256},
     {0, "p521_kyber1024", OQS_KEM_alg_kyber_1024, KEY_TYPE_ECP_HYB_KEM, 256},
+    {0, "rlcel1", OQS_KEM_alg_RLCE_l1, KEY_TYPE_KEM, 128},
+    {0, "classicmceliece348864", OQS_KEM_alg_classic_mceliece_348864, KEY_TYPE_KEM, 128},
     {0, "bikel1", OQS_KEM_alg_bike_l1, KEY_TYPE_KEM, 128},
     {0, "p256_bikel1", OQS_KEM_alg_bike_l1, KEY_TYPE_ECP_HYB_KEM, 128},
     {0, "x25519_bikel1", OQS_KEM_alg_bike_l1, KEY_TYPE_ECX_HYB_KEM, 128},
