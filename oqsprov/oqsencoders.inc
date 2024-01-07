@@ -318,6 +318,24 @@ ENCODER_w_structure("frodo640aes", frodo640aes, der, PrivateKeyInfo),
                         SubjectPublicKeyInfo),
     ENCODER_TEXT("x25519_kyber512", x25519_kyber512),
 #    endif
+#    ifdef OQS_ENABLE_KEM_rlce_l1
+    ENCODER_w_structure("rlcel1", rlcel1, der, PrivateKeyInfo),
+    ENCODER_w_structure("rlcel1", rlcel1, pem, PrivateKeyInfo),
+    ENCODER_w_structure("rlcel1", rlcel1, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("rlcel1", rlcel1, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("rlcel1", rlcel1, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("rlcel1", rlcel1, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("rlcel1", rlcel1),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_348864
+    ENCODER_w_structure("classicmceliece348864", classicmceliece348864, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864", classicmceliece348864, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864", classicmceliece348864, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864", classicmceliece348864, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864", classicmceliece348864, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece348864", classicmceliece348864, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece348864", classicmceliece348864),
+#    endif
 #    ifdef OQS_ENABLE_KEM_kyber_768
     ENCODER_w_structure("kyber768", kyber768, der, PrivateKeyInfo),
     ENCODER_w_structure("kyber768", kyber768, pem, PrivateKeyInfo),
