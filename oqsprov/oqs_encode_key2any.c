@@ -707,6 +707,14 @@ static int oqsx_pki_priv_to_der(const void *vxkey, unsigned char **pder)
 #define kyber512_input_type            "kyber512"
 #define kyber512_pem_type              "kyber512"
 
+#define rlcel1_evp_type              0
+#define rlcel1_input_type            "rlcel1"
+#define rlcel1_pem_type              "rlcel1"
+
+#define classicmceliece348864_evp_type              0
+#define classicmceliece348864_input_type            "classicmceliece348864"
+#define classicmceliece348864_pem_type              "classicmceliece348864"
+
 #define p256_kyber512_evp_type     0
 #define p256_kyber512_input_type   "p256_kyber512"
 #define p256_kyber512_pem_type     "p256_kyber512"
