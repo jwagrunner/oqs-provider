@@ -597,6 +597,12 @@ MAKE_DECODER(_ecp, "p521_frodo1344shake", p521_frodo1344shake, oqsx,
 MAKE_DECODER(, "kyber512", kyber512, oqsx, PrivateKeyInfo);
 MAKE_DECODER(, "kyber512", kyber512, oqsx, SubjectPublicKeyInfo);
 
+MAKE_DECODER(, "rlcel1", rlcel1, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "rlcel1", rlcel1, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece348864", classicmceliece348864, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece348864", classicmceliece348864, oqsx, SubjectPublicKeyInfo);
+
 MAKE_DECODER(_ecp, "p256_kyber512", p256_kyber512, oqsx, PrivateKeyInfo);
 MAKE_DECODER(_ecp, "p256_kyber512", p256_kyber512, oqsx, SubjectPublicKeyInfo);
 MAKE_DECODER(_ecx, "x25519_kyber512", x25519_kyber512, oqsx, PrivateKeyInfo);
