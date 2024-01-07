@@ -1570,6 +1570,22 @@ MAKE_ENCODER(, kyber512, oqsx, SubjectPublicKeyInfo, der);
 MAKE_ENCODER(, kyber512, oqsx, SubjectPublicKeyInfo, pem);
 MAKE_TEXT_ENCODER(, kyber512);
 
+MAKE_ENCODER(, rlcel1, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, rlcel1, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, rlcel1, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, rlcel1, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, rlcel1, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, rlcel1, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, rlcel1);
+
+MAKE_ENCODER(, classicmceliece348864, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece348864, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece348864, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece348864, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece348864, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece348864, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece348864);
+
 MAKE_ENCODER(_ecp, p256_kyber512, oqsx, EncryptedPrivateKeyInfo, der);
 MAKE_ENCODER(_ecp, p256_kyber512, oqsx, EncryptedPrivateKeyInfo, pem);
 MAKE_ENCODER(_ecp, p256_kyber512, oqsx, PrivateKeyInfo, der);
