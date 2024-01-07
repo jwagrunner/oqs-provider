@@ -59,6 +59,9 @@ static OQS_GROUP_CONSTANTS oqs_group_list[] = {
     {0x2F05, 256, TLS1_3_VERSION, 0, -1, -1, 1},
     {0x023A, 128, TLS1_3_VERSION, 0, -1, -1, 1},
 
+    {0x024D, 128, TLS1_3_VERSION, 0, -1, -1, 1},
+    {0x0239, 128, TLS1_3_VERSION, 0, -1, -1, 1},
+
     {0x2F3A, 128, TLS1_3_VERSION, 0, -1, -1, 1},
     {0x2F39, 128, TLS1_3_VERSION, 0, -1, -1, 1},
     {0x023C, 192, TLS1_3_VERSION, 0, -1, -1, 1},
@@ -218,6 +221,12 @@ static const OSSL_PARAM oqs_param_group_list[][11] = {
 
     OQS_GROUP_ENTRY(p521_hqc256, p521_hqc256, p521_hqc256, 41),
 #endif
+#ifdef OQS_ENABLE_KEM_rlce_l1
+    OQS_GROUP_ENTRY(rlcel1, rlcel1, rlcel1, 42),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_348864
+    OQS_GROUP_ENTRY(classicmceliece348864, classicmceliece348864, classicmceliece348864, 43),
+#endif
     ///// OQS_TEMPLATE_FRAGMENT_GROUP_NAMES_END
 };
 
@@ -357,6 +366,10 @@ int oqs_patch_codepoints()
         oqs_group_list[40].group_id = atoi(getenv("OQS_CODEPOINT_HQC256"));
     if (getenv("OQS_CODEPOINT_P521_HQC256"))
         oqs_group_list[41].group_id = atoi(getenv("OQS_CODEPOINT_P521_HQC256"));
+    if (getenv("OQS_CODEPOINT_RLCE"))
+        oqs_group_list[42].group_id = atoi(getenv("OQS_CODEPOINT_RLCE"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"))
+        oqs_group_list[43].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"));
 
     if (getenv("OQS_CODEPOINT_DILITHIUM2"))
         oqs_sigalg_list[0].code_point
