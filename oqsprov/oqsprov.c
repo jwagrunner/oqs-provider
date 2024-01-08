@@ -769,10 +769,10 @@ static const OSSL_ALGORITHM oqsprovider_keymgmt[] = {
 #endif
 #ifdef OQS_ENABLE_KEM_rlce_l1
     KEMKMALG(rlcel1, 128)
-#end
+#endif
 #ifdef OQS_ENABLE_KEM_classic_mceliece_348864
     KEMKMALG(classicmceliece348864, 128)
-#end
+#endif
 #ifdef OQS_ENABLE_KEM_kyber_768
     KEMKMALG(kyber768, 192)
 
