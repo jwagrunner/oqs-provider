@@ -141,6 +141,10 @@ const char *oqs_oid_alg_list[OQS_OID_CNT] = {
     "hqc256",
     "1.3.9999.99.36",
     "p521_hqc256",
+    "1.3.9999.99.38",
+    "rlcel1",
+    "1.3.9999.99.39",
+    "classicmceliece348864",
 
 #endif /* OQS_KEM_ENCODERS */
 
@@ -299,7 +303,13 @@ int oqs_patch_oids(void)
     if (getenv("OQS_OID_P521_HQC256"))
         oqs_oid_alg_list[82] = getenv("OQS_OID_P521_HQC256");
 
-#    define OQS_KEMOID_CNT 82 + 2
+    if (getenv("OQS_OID_RLCEL1"))
+        oqs_oid_alg_list[84] = getenv("OQS_OID_RLCEL1");
+
+    if (getenv("OQS_OID_CLASSICMCELIECE348864"))
+        oqs_oid_alg_list[86] = getenv("OQS_OID_CLASSICMCELIECE348864");
+
+#    define OQS_KEMOID_CNT 86 + 2
 #else
 #    define OQS_KEMOID_CNT 0
 #endif /* OQS_KEM_ENCODERS */
@@ -622,6 +632,12 @@ static const OSSL_ALGORITHM oqsprovider_asym_kems[] = {
     KEMHYBALG(p256_kyber512, 128)
     KEMHYBALG(x25519_kyber512, 128)
 #endif
+#ifdef OQS_ENABLE_KEM_rlce_l1
+    KEMBASEALG(rlcel1, 128)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_348864
+    KEMBASEALG(classicmceliece348864, 128)
+#endif
 #ifdef OQS_ENABLE_KEM_kyber_768
     KEMBASEALG(kyber768, 192)
     KEMHYBALG(p384_kyber768, 192)
@@ -751,6 +767,12 @@ static const OSSL_ALGORITHM oqsprovider_keymgmt[] = {
     KEMKMHYBALG(p256_kyber512, 128, ecp)
     KEMKMHYBALG(x25519_kyber512, 128, ecx)
 #endif
+#ifdef OQS_ENABLE_KEM_rlce_l1
+    KEMKMALG(rlcel1, 128)
+#end
+#ifdef OQS_ENABLE_KEM_classic_mceliece_348864
+    KEMKMALG(classicmceliece348864, 128)
+#end
 #ifdef OQS_ENABLE_KEM_kyber_768
     KEMKMALG(kyber768, 192)
 
