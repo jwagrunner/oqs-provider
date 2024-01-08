@@ -366,8 +366,8 @@ int oqs_patch_codepoints()
         oqs_group_list[40].group_id = atoi(getenv("OQS_CODEPOINT_HQC256"));
     if (getenv("OQS_CODEPOINT_P521_HQC256"))
         oqs_group_list[41].group_id = atoi(getenv("OQS_CODEPOINT_P521_HQC256"));
-    if (getenv("OQS_CODEPOINT_RLCE"))
-        oqs_group_list[42].group_id = atoi(getenv("OQS_CODEPOINT_RLCE"));
+    if (getenv("OQS_CODEPOINT_RLCEL1"))
+        oqs_group_list[42].group_id = atoi(getenv("OQS_CODEPOINT_RLCEL1"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"))
         oqs_group_list[43].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"));
 
