@@ -59,9 +59,6 @@ static OQS_GROUP_CONSTANTS oqs_group_list[] = {
     {0x2F05, 256, TLS1_3_VERSION, 0, -1, -1, 1},
     {0x023A, 128, TLS1_3_VERSION, 0, -1, -1, 1},
 
-    {0x024D, 128, TLS1_3_VERSION, 0, -1, -1, 1},
-    {0x0239, 128, TLS1_3_VERSION, 0, -1, -1, 1},
-
     {0x2F3A, 128, TLS1_3_VERSION, 0, -1, -1, 1},
     {0x2F39, 128, TLS1_3_VERSION, 0, -1, -1, 1},
     {0x023C, 192, TLS1_3_VERSION, 0, -1, -1, 1},
@@ -95,6 +92,9 @@ static OQS_GROUP_CONSTANTS oqs_group_list[] = {
     {0x0246, 256, TLS1_3_VERSION, 0, -1, -1, 1},
 
     {0x2F46, 256, TLS1_3_VERSION, 0, -1, -1, 1},
+
+    {0x024D, 128, TLS1_3_VERSION, 0, -1, -1, 1},
+    {0x0239, 128, TLS1_3_VERSION, 0, -1, -1, 1},
     ///// OQS_TEMPLATE_FRAGMENT_GROUP_ASSIGNMENTS_END
 };
 
