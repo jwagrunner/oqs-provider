@@ -54,7 +54,7 @@ static int oqsx_key_recreate_classickey(OQSX_KEY *key, oqsx_key_op_t op);
 ///// OQS_TEMPLATE_FRAGMENT_OQSNAMES_START
 
 #ifdef OQS_KEM_ENCODERS
-#    define NID_TABLE_LEN 67
+#    define NID_TABLE_LEN 78
 #else
 #    define NID_TABLE_LEN 23
 #endif
@@ -99,7 +99,18 @@ static oqs_nid_name_t nid_names[NID_TABLE_LEN] = {
     {0, "kyber1024", OQS_KEM_alg_kyber_1024, KEY_TYPE_KEM, 256},
     {0, "p521_kyber1024", OQS_KEM_alg_kyber_1024, KEY_TYPE_ECP_HYB_KEM, 256},
     {0, "rlcel1", OQS_KEM_alg_RLCE_l1, KEY_TYPE_KEM, 128},
+    {0, "rlcel3", OQS_KEM_alg_RLCE_l3, KEY_TYPE_KEM, 192},
+    {0, "rlcel5", OQS_KEM_alg_RLCE_l5, KEY_TYPE_KEM, 256},
     {0, "classicmceliece348864", OQS_KEM_alg_classic_mceliece_348864, KEY_TYPE_KEM, 128},
+    {0, "classicmceliece348864f", OQS_KEM_alg_classic_mceliece_348864f, KEY_TYPE_KEM, 128},
+    {0, "classicmceliece460896", OQS_KEM_alg_classic_mceliece_460896, KEY_TYPE_KEM, 192},
+    {0, "classicmceliece460896f", OQS_KEM_alg_classic_mceliece_460896f, KEY_TYPE_KEM, 192},
+    {0, "classicmceliece6688128", OQS_KEM_alg_classic_mceliece_6688128, KEY_TYPE_KEM, 256},
+    {0, "classicmceliece6688128f", OQS_KEM_alg_classic_mceliece_6688128f, KEY_TYPE_KEM, 256},
+    {0, "classicmceliece6960119", OQS_KEM_alg_classic_mceliece_6960119, KEY_TYPE_KEM, 256},
+    {0, "classicmceliece6960119f", OQS_KEM_alg_classic_mceliece_6960119f, KEY_TYPE_KEM, 256},
+    {0, "classicmceliece8192128", OQS_KEM_alg_classic_mceliece_8192128, KEY_TYPE_KEM, 256},
+    {0, "classicmceliece8192128f", OQS_KEM_alg_classic_mceliece_8192128f, KEY_TYPE_KEM, 256},
     {0, "bikel1", OQS_KEM_alg_bike_l1, KEY_TYPE_KEM, 128},
     {0, "p256_bikel1", OQS_KEM_alg_bike_l1, KEY_TYPE_ECP_HYB_KEM, 128},
     {0, "x25519_bikel1", OQS_KEM_alg_bike_l1, KEY_TYPE_ECX_HYB_KEM, 128},
