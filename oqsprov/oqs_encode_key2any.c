@@ -711,9 +711,53 @@ static int oqsx_pki_priv_to_der(const void *vxkey, unsigned char **pder)
 #define rlcel1_input_type            "rlcel1"
 #define rlcel1_pem_type              "rlcel1"
 
+#define rlcel3_evp_type              0
+#define rlcel3_input_type            "rlcel3"
+#define rlcel3_pem_type              "rlcel3"
+
+#define rlcel5_evp_type              0
+#define rlcel5_input_type            "rlcel5"
+#define rlcel5_pem_type              "rlcel5"
+
 #define classicmceliece348864_evp_type              0
 #define classicmceliece348864_input_type            "classicmceliece348864"
 #define classicmceliece348864_pem_type              "classicmceliece348864"
+
+#define classicmceliece348864f_evp_type              0
+#define classicmceliece348864f_input_type            "classicmceliece348864f"
+#define classicmceliece348864f_pem_type              "classicmceliece348864f"
+
+#define classicmceliece460896_evp_type              0
+#define classicmceliece460896_input_type            "classicmceliece460896"
+#define classicmceliece460896_pem_type              "classicmceliece460896"
+
+#define classicmceliece460896f_evp_type              0
+#define classicmceliece460896f_input_type            "classicmceliece460896f"
+#define classicmceliece460896f_pem_type              "classicmceliece460896f"
+
+#define classicmceliece6688128_evp_type              0
+#define classicmceliece6688128_input_type            "classicmceliece6688128"
+#define classicmceliece6688128_pem_type              "classicmceliece6688128"
+
+#define classicmceliece6688128f_evp_type              0
+#define classicmceliece6688128f_input_type            "classicmceliece6688128f"
+#define classicmceliece6688128f_pem_type              "classicmceliece6688128f"
+
+#define classicmceliece6960119_evp_type              0
+#define classicmceliece6960119_input_type            "classicmceliece6960119"
+#define classicmceliece6960119_pem_type              "classicmceliece6960119"
+
+#define classicmceliece6960119f_evp_type              0
+#define classicmceliece6960119f_input_type            "classicmceliece6960119f"
+#define classicmceliece6960119f_pem_type              "classicmceliece6960119f"
+
+#define classicmceliece8192128_evp_type              0
+#define classicmceliece8192128_input_type            "classicmceliece8192128"
+#define classicmceliece8192128_pem_type              "classicmceliece8192128"
+
+#define classicmceliece8192128f_evp_type              0
+#define classicmceliece8192128f_input_type            "classicmceliece8192128f"
+#define classicmceliece8192128f_pem_type              "classicmceliece8192128f"
 
 #define p256_kyber512_evp_type     0
 #define p256_kyber512_input_type   "p256_kyber512"
