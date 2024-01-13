@@ -1074,7 +1074,29 @@ MAKE_KEM_KEYMGMT_FUNCTIONS(kyber512, OQS_KEM_alg_kyber_512, 128)
 
 MAKE_KEM_KEYMGMT_FUNCTIONS(rlcel1, OQS_KEM_alg_RLCE_l1, 128)
 
+MAKE_KEM_KEYMGMT_FUNCTIONS(rlcel1, OQS_KEM_alg_RLCE_l3, 192)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(rlcel1, OQS_KEM_alg_RLCE_l5, 256)
+
 MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece348864, OQS_KEM_alg_classic_mceliece_348864, 128)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece348864f, OQS_KEM_alg_classic_mceliece_348864f, 128)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece460896, OQS_KEM_alg_classic_mceliece_460896, 192)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece460896f, OQS_KEM_alg_classic_mceliece_460896f, 192)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece6688128, OQS_KEM_alg_classic_mceliece_6688128, 256)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece6688128f, OQS_KEM_alg_classic_mceliece_6688128f, 256)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece6960119, OQS_KEM_alg_classic_mceliece_6960119, 256)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece6960119f, OQS_KEM_alg_classic_mceliece_6960119f, 256)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece8192128, OQS_KEM_alg_classic_mceliece_8192128, 256)
+
+MAKE_KEM_KEYMGMT_FUNCTIONS(classicmceliece8192128f, OQS_KEM_alg_classic_mceliece_8192128f, 256)
 
 MAKE_KEM_ECP_KEYMGMT_FUNCTIONS(p256_kyber512, OQS_KEM_alg_kyber_512, 128)
 
