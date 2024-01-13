@@ -600,8 +600,41 @@ MAKE_DECODER(, "kyber512", kyber512, oqsx, SubjectPublicKeyInfo);
 MAKE_DECODER(, "rlcel1", rlcel1, oqsx, PrivateKeyInfo);
 MAKE_DECODER(, "rlcel1", rlcel1, oqsx, SubjectPublicKeyInfo);
 
+MAKE_DECODER(, "rlcel3", rlcel3, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "rlcel3", rlcel3, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "rlcel5", rlcel5, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "rlcel5", rlcel5, oqsx, SubjectPublicKeyInfo);
+
 MAKE_DECODER(, "classicmceliece348864", classicmceliece348864, oqsx, PrivateKeyInfo);
 MAKE_DECODER(, "classicmceliece348864", classicmceliece348864, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece348864f", classicmceliece348864f, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece348864f", classicmceliece348864f, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece460896", classicmceliece460896, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece460896", classicmceliece460896, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece460896f", classicmceliece460896f, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece460896f", classicmceliece460896f, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece6688128", classicmceliece6688128, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece6688128", classicmceliece6688128, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece6688128f", classicmceliece6688128f, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece6688128f", classicmceliece6688128f, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece6960119", classicmceliece6960119, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece6960119", classicmceliece6960119, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece6960119f", classicmceliece6960119f, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece6960119f", classicmceliece6960119f, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece8192128", classicmceliece8192128, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece8192128", classicmceliece8192128, oqsx, SubjectPublicKeyInfo);
+
+MAKE_DECODER(, "classicmceliece8192128f", classicmceliece8192128f, oqsx, PrivateKeyInfo);
+MAKE_DECODER(, "classicmceliece8192128f", classicmceliece8192128f, oqsx, SubjectPublicKeyInfo);
 
 MAKE_DECODER(_ecp, "p256_kyber512", p256_kyber512, oqsx, PrivateKeyInfo);
 MAKE_DECODER(_ecp, "p256_kyber512", p256_kyber512, oqsx, SubjectPublicKeyInfo);
