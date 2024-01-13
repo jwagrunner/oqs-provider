@@ -1578,6 +1578,22 @@ MAKE_ENCODER(, rlcel1, oqsx, SubjectPublicKeyInfo, der);
 MAKE_ENCODER(, rlcel1, oqsx, SubjectPublicKeyInfo, pem);
 MAKE_TEXT_ENCODER(, rlcel1);
 
+MAKE_ENCODER(, rlcel3, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, rlcel3, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, rlcel3, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, rlcel3, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, rlcel3, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, rlcel3, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, rlcel3);
+
+MAKE_ENCODER(, rlcel5, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, rlcel5, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, rlcel5, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, rlcel5, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, rlcel5, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, rlcel5, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, rlcel5);
+
 MAKE_ENCODER(, classicmceliece348864, oqsx, EncryptedPrivateKeyInfo, der);
 MAKE_ENCODER(, classicmceliece348864, oqsx, EncryptedPrivateKeyInfo, pem);
 MAKE_ENCODER(, classicmceliece348864, oqsx, PrivateKeyInfo, der);
@@ -1585,6 +1601,78 @@ MAKE_ENCODER(, classicmceliece348864, oqsx, PrivateKeyInfo, pem);
 MAKE_ENCODER(, classicmceliece348864, oqsx, SubjectPublicKeyInfo, der);
 MAKE_ENCODER(, classicmceliece348864, oqsx, SubjectPublicKeyInfo, pem);
 MAKE_TEXT_ENCODER(, classicmceliece348864);
+
+MAKE_ENCODER(, classicmceliece348864f, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece348864f, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece348864f, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece348864f, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece348864f, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece348864f, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece348864f);
+
+MAKE_ENCODER(, classicmceliece460896, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece460896, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece460896, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece460896, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece460896, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece460896, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece460896);
+
+MAKE_ENCODER(, classicmceliece460896f, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece460896f, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece460896f, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece460896f, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece460896f, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece460896f, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece460896f);
+
+MAKE_ENCODER(, classicmceliece6688128, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6688128, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6688128, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6688128, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6688128, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6688128, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece6688128);
+
+MAKE_ENCODER(, classicmceliece6688128f, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6688128f, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6688128f, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6688128f, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6688128f, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6688128f, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece6688128f);
+
+MAKE_ENCODER(, classicmceliece6960119, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6960119, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6960119, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6960119, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6960119, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6960119, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece6960119);
+
+MAKE_ENCODER(, classicmceliece6960119f, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6960119f, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6960119f, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6960119f, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece6960119f, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece6960119f, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece6960119f);
+
+MAKE_ENCODER(, classicmceliece8192128, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece8192128, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece8192128, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece8192128, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece8192128, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece8192128, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece8192128);
+
+MAKE_ENCODER(, classicmceliece8192128f, oqsx, EncryptedPrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece8192128f, oqsx, EncryptedPrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece8192128f, oqsx, PrivateKeyInfo, der);
+MAKE_ENCODER(, classicmceliece8192128f, oqsx, PrivateKeyInfo, pem);
+MAKE_ENCODER(, classicmceliece8192128f, oqsx, SubjectPublicKeyInfo, der);
+MAKE_ENCODER(, classicmceliece8192128f, oqsx, SubjectPublicKeyInfo, pem);
+MAKE_TEXT_ENCODER(, classicmceliece8192128f);
 
 MAKE_ENCODER(_ecp, p256_kyber512, oqsx, EncryptedPrivateKeyInfo, der);
 MAKE_ENCODER(_ecp, p256_kyber512, oqsx, EncryptedPrivateKeyInfo, pem);
