@@ -417,25 +417,25 @@ int oqs_patch_codepoints()
     if (getenv("OQS_CODEPOINT_RLCEL5"))
         oqs_group_list[44].group_id = atoi(getenv("OQS_CODEPOINT_RLCEL5"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"))
-        oqs_group_list[43].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"));
+        oqs_group_list[45].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE348864F"))
-        oqs_group_list[44].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864F"));
+        oqs_group_list[46].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864F"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE460896"))
-        oqs_group_list[45].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE460896"));
+        oqs_group_list[47].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE460896"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE460896F"))
-        oqs_group_list[46].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE460896F"));
+        oqs_group_list[48].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE460896F"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128"))
-        oqs_group_list[47].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128"));
+        oqs_group_list[49].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128F"))
-        oqs_group_list[48].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128F"));
+        oqs_group_list[50].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128F"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119"))
-        oqs_group_list[49].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119"));
+        oqs_group_list[51].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119F"))
-        oqs_group_list[50].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119F"));
+        oqs_group_list[52].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119F"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128"))
-        oqs_group_list[51].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128"));
+        oqs_group_list[53].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128F"))
-        oqs_group_list[52].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128F"));
+        oqs_group_list[54].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128F"));
 
     if (getenv("OQS_CODEPOINT_DILITHIUM2"))
         oqs_sigalg_list[0].code_point
