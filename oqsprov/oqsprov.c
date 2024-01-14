@@ -635,8 +635,41 @@ static const OSSL_ALGORITHM oqsprovider_asym_kems[] = {
 #ifdef OQS_ENABLE_KEM_rlce_l1
     KEMBASEALG(rlcel1, 128)
 #endif
+#ifdef OQS_ENABLE_KEM_rlce_l3
+    KEMBASEALG(rlcel3, 192)
+#endif
+#ifdef OQS_ENABLE_KEM_rlce_l5
+    KEMBASEALG(rlcel5, 256)
+#endif
 #ifdef OQS_ENABLE_KEM_classic_mceliece_348864
     KEMBASEALG(classicmceliece348864, 128)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_348864f
+    KEMBASEALG(classicmceliece348864f, 128)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_460896
+    KEMBASEALG(classicmceliece460896, 192)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_460896f
+    KEMBASEALG(classicmceliece460896f, 192)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6688128
+    KEMBASEALG(classicmceliece6688128, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6688128f
+    KEMBASEALG(classicmceliece6688128f, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6960119
+    KEMBASEALG(classicmceliece6960119, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6960119f
+    KEMBASEALG(classicmceliece6960119f, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_8192128
+    KEMBASEALG(classicmceliece8192128, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_8192128f
+    KEMBASEALG(classicmceliece8192128f, 256)
 #endif
 #ifdef OQS_ENABLE_KEM_kyber_768
     KEMBASEALG(kyber768, 192)
@@ -770,8 +803,41 @@ static const OSSL_ALGORITHM oqsprovider_keymgmt[] = {
 #ifdef OQS_ENABLE_KEM_rlce_l1
     KEMKMALG(rlcel1, 128)
 #endif
+#ifdef OQS_ENABLE_KEM_rlce_l3
+    KEMKMALG(rlcel3, 192)
+#endif
+#ifdef OQS_ENABLE_KEM_rlce_l5
+    KEMKMALG(rlcel5, 256)
+#endif
 #ifdef OQS_ENABLE_KEM_classic_mceliece_348864
     KEMKMALG(classicmceliece348864, 128)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_348864f
+    KEMKMALG(classicmceliece348864f, 128)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_460896
+    KEMKMALG(classicmceliece460896, 192)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_460896f
+    KEMKMALG(classicmceliece460896f, 192)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6688128
+    KEMKMALG(classicmceliece6688128, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6688128f
+    KEMKMALG(classicmceliece6688128f, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6960119
+    KEMKMALG(classicmceliece6960119, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6960119f
+    KEMKMALG(classicmceliece6960119f, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_8192128
+    KEMKMALG(classicmceliece8192128, 256)
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_8192128f
+    KEMKMALG(classicmceliece8192128f, 256)
 #endif
 #ifdef OQS_ENABLE_KEM_kyber_768
     KEMKMALG(kyber768, 192)
