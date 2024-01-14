@@ -235,8 +235,41 @@ static const OSSL_PARAM oqs_param_group_list[][11] = {
 #ifdef OQS_ENABLE_KEM_rlce_l1
     OQS_GROUP_ENTRY(rlcel1, rlcel1, rlcel1, 42),
 #endif
+#ifdef OQS_ENABLE_KEM_rlce_l3
+    OQS_GROUP_ENTRY(rlcel3, rlcel3, rlcel3, 43),
+#endif
+#ifdef OQS_ENABLE_KEM_rlce_l5
+    OQS_GROUP_ENTRY(rlcel5, rlcel5, rlcel5, 44),
+#endif
 #ifdef OQS_ENABLE_KEM_classic_mceliece_348864
-    OQS_GROUP_ENTRY(classicmceliece348864, classicmceliece348864, classicmceliece348864, 43),
+    OQS_GROUP_ENTRY(classicmceliece348864, classicmceliece348864, classicmceliece348864, 45),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_348864f
+    OQS_GROUP_ENTRY(classicmceliece348864f, classicmceliece348864f, classicmceliece348864f, 46),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_460896
+    OQS_GROUP_ENTRY(classicmceliece460896, classicmceliece460896, classicmceliece460896, 47),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_460896f
+    OQS_GROUP_ENTRY(classicmceliece460896f, classicmceliece460896f, classicmceliece460896f, 48),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6688128
+    OQS_GROUP_ENTRY(classicmceliece6688128, classicmceliece6688128, classicmceliece6688128, 49),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6688128f
+    OQS_GROUP_ENTRY(classicmceliece6688128f, classicmceliece6688128f, classicmceliece6688128f, 50),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6960119
+    OQS_GROUP_ENTRY(classicmceliece6960119, classicmceliece6960119, classicmceliece6960119, 51),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_6960119f
+    OQS_GROUP_ENTRY(classicmceliece6960119f, classicmceliece6960119f, classicmceliece6960119f, 52),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_8192128
+    OQS_GROUP_ENTRY(classicmceliece8192128, classicmceliece8192128, classicmceliece8192128, 53),
+#endif
+#ifdef OQS_ENABLE_KEM_classic_mceliece_8192128f
+    OQS_GROUP_ENTRY(classicmceliece8192128f, classicmceliece8192128f, classicmceliece8192128f, 54),
 #endif
     ///// OQS_TEMPLATE_FRAGMENT_GROUP_NAMES_END
 };
@@ -379,8 +412,30 @@ int oqs_patch_codepoints()
         oqs_group_list[41].group_id = atoi(getenv("OQS_CODEPOINT_P521_HQC256"));
     if (getenv("OQS_CODEPOINT_RLCEL1"))
         oqs_group_list[42].group_id = atoi(getenv("OQS_CODEPOINT_RLCEL1"));
+    if (getenv("OQS_CODEPOINT_RLCEL3"))
+        oqs_group_list[43].group_id = atoi(getenv("OQS_CODEPOINT_RLCEL3"));
+    if (getenv("OQS_CODEPOINT_RLCEL5"))
+        oqs_group_list[44].group_id = atoi(getenv("OQS_CODEPOINT_RLCEL5"));
     if (getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"))
         oqs_group_list[43].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE348864F"))
+        oqs_group_list[44].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE348864F"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE460896"))
+        oqs_group_list[45].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE460896"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE460896F"))
+        oqs_group_list[46].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE460896F"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128"))
+        oqs_group_list[47].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128F"))
+        oqs_group_list[48].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6688128F"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119"))
+        oqs_group_list[49].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119F"))
+        oqs_group_list[50].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE6960119F"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128"))
+        oqs_group_list[51].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128"));
+    if (getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128F"))
+        oqs_group_list[52].group_id = atoi(getenv("OQS_CODEPOINT_CLASSICMCELIECE8192128F"));
 
     if (getenv("OQS_CODEPOINT_DILITHIUM2"))
         oqs_sigalg_list[0].code_point
