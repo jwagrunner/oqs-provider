@@ -336,6 +336,87 @@ ENCODER_w_structure("frodo640aes", frodo640aes, der, PrivateKeyInfo),
     ENCODER_w_structure("classicmceliece348864", classicmceliece348864, pem, SubjectPublicKeyInfo),
     ENCODER_TEXT("classicmceliece348864", classicmceliece348864),
 #    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_348864f
+    ENCODER_w_structure("classicmceliece348864f", classicmceliece348864f, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864f", classicmceliece348864f, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864f", classicmceliece348864f, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864f", classicmceliece348864f, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece348864f", classicmceliece348864f, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece348864f", classicmceliece348864f, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece348864f", classicmceliece348864f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_460896
+    ENCODER_w_structure("classicmceliece460896", classicmceliece460896, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896", classicmceliece460896, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896", classicmceliece460896, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896", classicmceliece460896, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896", classicmceliece460896, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece460896", classicmceliece460896, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece460896", classicmceliece460896),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_460896f
+    ENCODER_w_structure("classicmceliece460896f", classicmceliece460896f, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896f", classicmceliece460896f, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896f", classicmceliece460896f, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896f", classicmceliece460896f, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece460896f", classicmceliece460896f, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece460896f", classicmceliece460896f, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece460896f", classicmceliece460896f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6688128
+    ENCODER_w_structure("classicmceliece6688128", classicmceliece6688128, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128", classicmceliece6688128, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128", classicmceliece6688128, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128", classicmceliece6688128, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128", classicmceliece6688128, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128", classicmceliece6688128, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece6688128", classicmceliece6688128),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6688128f
+    ENCODER_w_structure("classicmceliece6688128f", classicmceliece6688128f, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128f", classicmceliece6688128f, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128f", classicmceliece6688128f, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128f", classicmceliece6688128f, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128f", classicmceliece6688128f, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece6688128f", classicmceliece6688128f, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece6688128f", classicmceliece6688128f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6960119
+    ENCODER_w_structure("classicmceliece6960119", classicmceliece6960119, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119", classicmceliece6960119, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119", classicmceliece6960119, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119", classicmceliece6960119, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119", classicmceliece6960119, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119", classicmceliece6960119, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece6960119", classicmceliece6960119),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6960119f
+    ENCODER_w_structure("classicmceliece6960119f", classicmceliece6960119f, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119f", classicmceliece6960119f, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119f", classicmceliece6960119f, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119f", classicmceliece6960119f, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119f", classicmceliece6960119f, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece6960119f", classicmceliece6960119f, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece6960119f", classicmceliece6960119f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_8192128
+    ENCODER_w_structure("classicmceliece8192128", classicmceliece8192128, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128", classicmceliece8192128, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128", classicmceliece8192128, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128", classicmceliece8192128, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128", classicmceliece8192128, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128", classicmceliece8192128, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece8192128", classicmceliece8192128),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_8192128f
+    ENCODER_w_structure("classicmceliece8192128f", classicmceliece8192128f, der, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128f", classicmceliece8192128f, pem, PrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128f", classicmceliece8192128f, der, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128f", classicmceliece8192128f, pem, EncryptedPrivateKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128f", classicmceliece8192128f, der, SubjectPublicKeyInfo),
+    ENCODER_w_structure("classicmceliece8192128f", classicmceliece8192128f, pem, SubjectPublicKeyInfo),
+    ENCODER_TEXT("classicmceliece8192128f", classicmceliece8192128f),
+#    endif
 #    ifdef OQS_ENABLE_KEM_kyber_768
     ENCODER_w_structure("kyber768", kyber768, der, PrivateKeyInfo),
     ENCODER_w_structure("kyber768", kyber768, pem, PrivateKeyInfo),
