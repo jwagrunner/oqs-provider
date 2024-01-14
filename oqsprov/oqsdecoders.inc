@@ -119,9 +119,53 @@ DECODER_w_structure("frodo640aes", der, PrivateKeyInfo, frodo640aes),
     DECODER_w_structure("rlcel1", der, PrivateKeyInfo, rlcel1),
     DECODER_w_structure("rlcel1", der, SubjectPublicKeyInfo, rlcel1),
 #    endif
+#    ifdef OQS_ENABLE_KEM_rlce_l3
+    DECODER_w_structure("rlcel3", der, PrivateKeyInfo, rlcel3),
+    DECODER_w_structure("rlcel3", der, SubjectPublicKeyInfo, rlcel3),
+#    endif
+#    ifdef OQS_ENABLE_KEM_rlce_l5
+    DECODER_w_structure("rlcel5", der, PrivateKeyInfo, rlcel5),
+    DECODER_w_structure("rlcel5", der, SubjectPublicKeyInfo, rlcel5),
+#    endif
 #    ifdef OQS_ENABLE_KEM_classic_mceliece_348864
     DECODER_w_structure("classicmceliece348864", der, PrivateKeyInfo, classicmceliece348864),
     DECODER_w_structure("classicmceliece348864", der, SubjectPublicKeyInfo, classicmceliece348864),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_348864f
+    DECODER_w_structure("classicmceliece348864f", der, PrivateKeyInfo, classicmceliece348864f),
+    DECODER_w_structure("classicmceliece348864f", der, SubjectPublicKeyInfo, classicmceliece348864f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_460896
+    DECODER_w_structure("classicmceliece460896", der, PrivateKeyInfo, classicmceliece460896),
+    DECODER_w_structure("classicmceliece460896", der, SubjectPublicKeyInfo, classicmceliece460896),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_460896f
+    DECODER_w_structure("classicmceliece460896f", der, PrivateKeyInfo, classicmceliece460896f),
+    DECODER_w_structure("classicmceliece460896f", der, SubjectPublicKeyInfo, classicmceliece460896f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6688128
+    DECODER_w_structure("classicmceliece6688128", der, PrivateKeyInfo, classicmceliece6688128),
+    DECODER_w_structure("classicmceliece6688128", der, SubjectPublicKeyInfo, classicmceliece6688128),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6688128f
+    DECODER_w_structure("classicmceliece6688128f", der, PrivateKeyInfo, classicmceliece6688128f),
+    DECODER_w_structure("classicmceliece6688128f", der, SubjectPublicKeyInfo, classicmceliece6688128f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6960119
+    DECODER_w_structure("classicmceliece6960119", der, PrivateKeyInfo, classicmceliece6960119),
+    DECODER_w_structure("classicmceliece6960119", der, SubjectPublicKeyInfo, classicmceliece6960119),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_6960119f
+    DECODER_w_structure("classicmceliece6960119f", der, PrivateKeyInfo, classicmceliece6960119f),
+    DECODER_w_structure("classicmceliece6960119f", der, SubjectPublicKeyInfo, classicmceliece6960119f),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_8192128
+    DECODER_w_structure("classicmceliece8192128", der, PrivateKeyInfo, classicmceliece8192128),
+    DECODER_w_structure("classicmceliece8192128", der, SubjectPublicKeyInfo, classicmceliece8192128),
+#    endif
+#    ifdef OQS_ENABLE_KEM_classic_mceliece_8192128f
+    DECODER_w_structure("classicmceliece8192128f", der, PrivateKeyInfo, classicmceliece8192128f),
+    DECODER_w_structure("classicmceliece8192128f", der, SubjectPublicKeyInfo, classicmceliece8192128f),
 #    endif
 #    ifdef OQS_ENABLE_KEM_kyber_768
     DECODER_w_structure("kyber768", der, PrivateKeyInfo, kyber768),
